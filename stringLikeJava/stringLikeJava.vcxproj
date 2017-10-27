@@ -112,10 +112,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\My\My\define.h" />
     <ClInclude Include="..\..\My\My\String.h" />
+    <ClInclude Include="..\..\My\My\util.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\My\My\String.cpp" />
+    <ClCompile Include="..\..\My\My\util.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
